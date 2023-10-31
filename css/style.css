@@ -1,0 +1,44 @@
+:root {
+    --f5: 14.6px;
+    --f4: 18px;
+    --f3: 25px;
+    --f2: 33.28px;
+    --f1: 33.33px;
+    --text-color: white;
+    --color1: #29a19c;
+    --color2: #222831;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bord-standart { 
+    width: 1334px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: var(--color2);
+}
+
+.header-bor {
+    padding: 43px 53px 30px 53px;
+}
+
+.header-button {
+    margin-right: 44px;
+    font-size: var(--f3);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    display: inline-block;
+}
+
+.header-logo {
+    height: 52.5px;
+    margin-right: 6px;
+    margin-top: -2px;
+}
