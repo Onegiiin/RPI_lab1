@@ -15,6 +15,25 @@
     align-items: center;
 }
 
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: var(--f4);
+    color: var(--text-color);
+    background-color: #111111;
+}
+
+main {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: var(--color2);
+}
+
 .bord-standart { 
     width: 1440px;
     margin-right: auto;
@@ -46,3 +65,4 @@
 .navbar {
     margin-left: 53px;
 }
+
