@@ -66,3 +66,86 @@ main {
     margin-left: 53px;
 }
 
+.background-img {
+    margin-top: 26px;
+    margin-left: 45px;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+}
+
+.home-bor {
+    margin-bottom: 38px;
+    padding: 20px 53px 0px 53px;
+    background-color: var(--color2);
+} 
+
+.home-content {
+    margin-left: 3px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    margin-top: 7px;
+    margin-left: -7px;
+    font-weight: 100;
+    font-family: 'GrandHotel';
+    font-size: 153.15px;
+    letter-spacing: 6.126px;
+}
+
+.home-post-title {
+    margin: 11px 0px 0px 0px;
+    font-size: var(--f2);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 1.9968px;
+    line-height: 70px;
+}
+
+.home-text {
+    width: 510px;
+    margin-top: -1px;
+    margin-bottom: 22px;
+    margin-left: 3px;
+    font-size: var(--f5);
+    font-family: 'Montserrat2';
+    letter-spacing: 0.876px;
+    line-height: 24px;
+}
+
+.order-button {
+    height: 59px;
+    width: 248px;
+    padding: 7px 30px;
+    border-radius: 15px;
+    font-size: var(--f1);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    color: var(--text-color);
+    z-index: 2;
+    border: none;
+    
+} 
+
+.order-green {
+    background-color: var(--color1);
+    --text-color: white;
+}
+
+.home-img {
+    top: 10px;
+    right: 0px;
+    margin-top:2.5px;
+    position: absolute;
+    z-index: 0;
+}
