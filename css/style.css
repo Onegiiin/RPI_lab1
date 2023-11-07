@@ -58,8 +58,8 @@ main {
 
 .header-logo {
     height: 52.5px;
-    margin-right: 59px;
-    margin-top: -2px;
+    margin-right: 56px;
+    margin-top: -1px;
 }
 
 .navbar {
@@ -122,7 +122,7 @@ h2 {
 }
 
 .order-button {
-    height: 59px;
+    height: 58px;
     width: 248px;
     padding: 7px 30px;
     border-radius: 15px;
@@ -145,7 +145,67 @@ h2 {
 .home-img {
     top: 10px;
     right: 0px;
-    margin-top:2.5px;
+    margin-top:7px;
     position: absolute;
     z-index: 0;
+}
+
+.background-wave {
+    position: relative;
+}
+
+.menu-black {
+    margin-top:-35px;
+    padding: 38px 86px 20px 100px;
+    margin-bottom:-13px;
+    position: relative;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-black-order {
+    width: 450px;
+    margin-top: -34px;
+    margin-left: 35px;
+}
+
+.menu-black-title {
+    margin-top:-50px;
+    margin-bottom:92px;
+    font-size: 125px;
+    font-weight: normal;
+    font-family: 'GrandHotel';
+    letter-spacing: 5px;
+    line-height: 114px;
+}
+
+.order-grey {
+    background-color: var(--color2);
+    --text-color: white;
+}
+
+.menu-black-text {
+    width: 625px;
+    margin-top: 35px;
+    margin-right: -5px;
+    font-family: 'Montserrat2';
+    font-weight: 100;
+    font-size: 23.67px;
+    letter-spacing: 1.4202px;
+    line-height: 39.24px;
+    text-align: right;
+    opacity: 95%;
+}
+
+.menu-black-info {
+    margin-bottom:-47px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.menu-black-img {
+    margin-top:24px;    
 }
