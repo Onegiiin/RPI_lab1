@@ -204,3 +204,57 @@ h2 {
 .menu-black-img {
     margin-top:24px;    
 }
+
+.pos-center2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-hot {
+    padding: 0px 98px 0px 50px;
+    margin: -28px 0px 53px 0px;
+}
+
+.menu-hot-info{
+    margin-left:23px;
+}
+
+.menu-hot-img {
+    margin-top:-15px;   
+}
+
+.menu-hot-text {
+    width: 610px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat2';
+    font-weight: 100;
+    font-size: 22.77px;
+    line-height: 41.21px;
+    letter-spacing: 1.3602px;
+    text-align: left;
+    opacity: 0.95;
+}
+
+.menu-hot-order {
+    margin-top:-14px;
+    margin-right:8px;
+    width: 400px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+
+.menu-hot-title {
+    margin-top:-5px;
+    margin-bottom: 100px;
+    margin-right: 8px;
+    font-size: 125px;
+    font-weight: normal;
+    font-family: 'GrandHotel';
+    line-height: 114px;
+    letter-spacing: 5px;
+    text-align: right;
+}
