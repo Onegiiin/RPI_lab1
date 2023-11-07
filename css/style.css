@@ -181,11 +181,6 @@ h2 {
     line-height: 114px;
 }
 
-.order-grey {
-    background-color: var(--color2);
-    --text-color: white;
-}
-
 .menu-black-text {
     width: 625px;
     margin-top: 35px;
