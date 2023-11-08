@@ -306,3 +306,31 @@ h2 {
     margin-top: 0px;
     margin-right: 60px;
 }
+.menu-voucher-title {
+    margin: 20px 0px -12px -50px; 
+    font-size: 130.93px;
+    font-weight: 100;
+    font-family: 'GrandHotel';
+    line-height: 120px;
+    text-align: center;
+}
+
+.menu-voucher-img {
+    margin-top: 33px; 
+    margin-bottom: 3px;
+    margin-left: -25px; 
+    display: block;
+}
+
+.menu-voucher-order {
+    margin-top: 6px;
+    margin-left: 2px;
+    width:362px;
+}
+
+.menu-voucher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
