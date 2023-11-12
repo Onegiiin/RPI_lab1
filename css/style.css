@@ -348,7 +348,7 @@ h2 {
 .customer-reviews-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px; /* Set a maximum width for the review content */
+    max-width: 1000px; 
     margin-top: 30px;
     margin-right: auto;
     margin-bottom: 0;
@@ -356,7 +356,7 @@ h2 {
 }
 
 .customer-reviews-part {
-    width: 38%; /* Adjust the width of the review parts */
+    width: 38%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -364,7 +364,7 @@ h2 {
 }
 
 .customer-reviews-img1 {
-    margin-bottom: 10px; /* Adjust margin as needed */
+    margin-bottom: 10px; 
 }
 
 .customer-reviews-name {
@@ -403,12 +403,12 @@ h2 {
     margin:-13px 1px 50px 4px;
     font-size: 97.78px;
     font-weight: 100;
-    letter-spacing: 3.9112px;
+    letter-spacing: 3.9113px;
 }
 
 .working-days {
     margin-top: 80px;
-    margin-right: 4px;
+    margin-right: 5px;
     margin-bottom: -36px;
     font-size: 37.5px;
     font-family: 'Montserrat';
@@ -416,7 +416,7 @@ h2 {
 }
 
 .working-time {
-    padding-bottom: 23px;
+    padding-bottom: 24px;
     margin-right: 7px;
     font-size: 37.5px;
     font-family: 'Montserrat2';
