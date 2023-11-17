@@ -143,6 +143,13 @@ h2 {
     --text-color: white;
 }
 
+.order-button:hover {
+    background-color: #FFFFFF;
+    transition: 0.5s;
+    color: black;
+}
+
+
 .home-img {
     top: 10px;
     right: 0px;
@@ -175,6 +182,10 @@ h2 {
 .menu-black-order .order-button {
     background-color: var(--color2);
     --text-color: white;
+}
+
+.menu-black-order .order-button:hover{
+    background-color: #FFFFFF;
 }
 
 .menu-black-title {
