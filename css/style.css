@@ -68,11 +68,12 @@ main {
 }
 
 .background-img {
-    margin-top: 26px;
+    margin-top: 31px;
     margin-left: 45px;
     position: absolute;
     display: flex;
     z-index: 1;
+    pointer-events: none;
 }
 
 .home-bor {
