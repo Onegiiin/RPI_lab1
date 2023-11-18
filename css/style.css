@@ -126,11 +126,10 @@ h2 {
 .order-button {
     height: 58px;
     width: 248px;
-    padding: 7px 30px;
+    padding: 7px 20px;
     border-radius: 15px;
+    font-family: Montserrat;
     font-size: var(--f1);
-    font-weight: bold;
-    letter-spacing: 1.5px;
     position: relative;
     display: inline-block;
     color: var(--text-color);
