@@ -303,9 +303,9 @@ h2 {
 }
 
 .menu-white-order .order-button {
-    margin-top: 35px;
+    margin-top: 42px;
     margin-left: 19px;
-    margin-bottom: 41px;
+    margin-bottom: 39px;
 }
 
 .menu-white-text {
@@ -388,8 +388,17 @@ h2 {
 .customer-reviews-name {
     margin-top: 61px;
     margin-right: 10px;
-
     margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'GrandHotel';
+    line-height: 27.5px;
+}
+
+.customer-reviews-name2 {
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-bottom: -5px;
     font-size: 50px;
     font-weight: normal;
     font-family: 'GrandHotel';
