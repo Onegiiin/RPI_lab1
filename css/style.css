@@ -58,18 +58,18 @@ main {
 }
 
 .header-button::before {
+    margin-bottom: -35px;
    width:0;
     height: 3px;
-    left: 0px;
-    margin-bottom: -40px;
+    left: 5px;
     position: relative;
+    display: flex;
     background-color: var(--color1);
     content: '';
-    display: inline-block;
 }
 
 .header-button:hover:before {
-    width: 100%;
+    width: 85%;
     transition: 0.5s;
 }
 .header-logo {
