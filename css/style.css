@@ -57,6 +57,21 @@ main {
     text-decoration: none;
 }
 
+.header-button::before {
+   width:0;
+    height: 3px;
+    left: 0px;
+    margin-bottom: -40px;
+    position: relative;
+    background-color: var(--color1);
+    content: '';
+    display: inline-block;
+}
+
+.header-button:hover:before {
+    width: 100%;
+    transition: 0.5s;
+}
 .header-logo {
     height: 52.5px;
     margin-right: 56px;
